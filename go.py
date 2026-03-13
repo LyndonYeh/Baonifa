@@ -239,10 +239,9 @@ def create_gui():
     root.title("Baonifa")
     root.resizable(False, False)
 
-    icon_path = resource_path("robot.png")
+    icon_path = resource_path("robot.ico")
     if os.path.exists(icon_path):
-        icon_img = tk.PhotoImage(file=icon_path)
-        root.iconphoto(True, icon_img)
+        root.iconbitmap(icon_path)
 
     pad = {"padx": 8, "pady": 4}
 
