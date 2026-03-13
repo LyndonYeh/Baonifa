@@ -5,7 +5,7 @@ a = Analysis(
     ['go.py'],
     pathex=[],
     binaries=[],
-    datas=[('robot.png', '.')],
+    datas=[('robot.ico', '.')],
     hiddenimports=['patch_to_excel', 'excel_to_word', 'win32com', 'win32com.client', 'pythoncom', 'pywintypes'],
     hookspath=[],
     hooksconfig={},
